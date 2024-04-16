@@ -31,11 +31,21 @@ class IconsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(
+    return const Wrap(
       spacing: 8,
       children: [
-        FFIcons.person(color: Theme.of(context).colorScheme.primary),
-        FFIcons.location(color: Theme.of(context).colorScheme.primary),
+        Icon(FefuIcons.location),
+        Icon(FefuIcons.person),
+        Icon(FefuIcons.home),
+        Icon(FefuIcons.timetable),
+        Icon(FefuIcons.edit),
+        Icon(FefuIcons.search),
+        Icon(FefuIcons.filters),
+        Icon(FefuIcons.notif),
+        Icon(FefuIcons.arrowForward),
+        Icon(FefuIcons.info),
+        Icon(FefuIcons.logo),
+        Icon(FefuIcons.services),
       ],
     );
   }
