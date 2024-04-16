@@ -6,3 +6,6 @@
 
 ## 0.0.3
 * Add fonts and base icons
+
+## 0.0.4
+* Update links and class name

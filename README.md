@@ -1,7 +1,7 @@
 # Fefufit Icons
 
 ![](https://img.shields.io/pub/v/fefufit_icons)
-![](https://img.shields.io/github/license/fefufit/fefufit_icons)
+![](https://img.shields.io/github/license/fefufit/icons)
 
 FefufitIcons is a completely open-source icon set crafted for web, iOS, Android, and desktop apps.
 
@@ -13,11 +13,11 @@ import 'package:fefufit_icons/fefufit_icons.dart';
 
 ...
 
-Icon(FefuIcons.location),
-Icon(FefuIcons.person),
-Icon(FefuIcons.home),
+Icon(FFIcons.location),
+Icon(FFIcons.person),
+Icon(FefuIFFIconscons.home),
 ```
 
 ## Example
 
-https://fefufit.github.io/fefufit_icons/
+https://fefufit.github.io/icons/

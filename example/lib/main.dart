@@ -66,7 +66,7 @@ class GithubLink extends StatelessWidget {
   }
 
   Future<void> _launchURL() async {
-    const url = 'https://github.com/fefufit/fefufit_icons';
+    const url = 'https://github.com/fefufit/icons';
     await launchUrl(Uri.parse(url));
   }
 }
@@ -96,18 +96,18 @@ class IconsList extends StatelessWidget {
     return const Wrap(
       spacing: 8,
       children: [
-        Icon(FefuIcons.location),
-        Icon(FefuIcons.person),
-        Icon(FefuIcons.home),
-        Icon(FefuIcons.timetable),
-        Icon(FefuIcons.edit),
-        Icon(FefuIcons.search),
-        Icon(FefuIcons.filters),
-        Icon(FefuIcons.notification),
-        Icon(FefuIcons.arrowForward),
-        Icon(FefuIcons.info),
-        Icon(FefuIcons.logo),
-        Icon(FefuIcons.services),
+        Icon(FFIcons.location),
+        Icon(FFIcons.person),
+        Icon(FFIcons.home),
+        Icon(FFIcons.timetable),
+        Icon(FFIcons.edit),
+        Icon(FFIcons.search),
+        Icon(FFIcons.filters),
+        Icon(FFIcons.notification),
+        Icon(FFIcons.arrowForward),
+        Icon(FFIcons.info),
+        Icon(FFIcons.logo),
+        Icon(FFIcons.services),
       ],
     );
   }
