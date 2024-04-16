@@ -12,9 +12,10 @@ FefufitIcons is a completely open-source icon set crafted for web, iOS, Android,
 import 'package:fefufit_icons/fefufit_icons.dart';
 
 ...
- Icon(FefuIcons.location),
-        Icon(FefuIcons.person),
-        Icon(FefuIcons.home),
+
+Icon(FefuIcons.location),
+Icon(FefuIcons.person),
+Icon(FefuIcons.home),
 ```
 
 ## Example
