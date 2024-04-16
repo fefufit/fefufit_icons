@@ -59,6 +59,8 @@ class GithubLink extends StatelessWidget {
         'assets/github-mark.svg',
         width: 24,
         height: 24,
+        colorFilter: ColorFilter.mode(
+            Theme.of(context).iconTheme.color ?? Colors.white, BlendMode.srcIn),
       ),
     );
   }
