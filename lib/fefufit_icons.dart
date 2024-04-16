@@ -37,7 +37,7 @@ class FefuIcons {
       IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData filters =
       IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData notif =
+  static const IconData notification =
       IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrowForward =
       IconData(0xe809, fontFamily: _kFontFam, fontPackage: _kFontPkg);
