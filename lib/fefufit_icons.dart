@@ -1,35 +1,23 @@
-library;
-
 import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fefufit_icons/icons_data.dart';
 
 class FFIcons {
   FFIcons._();
 
-  static const _kFontFam = 'FFIcons';
-  static const String? _kFontPkg = null;
+  static final Color _defaultColor = Color.fromRGBO(67, 67, 244, 1);
 
-  static const IconData info =
-      IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData location =
-      IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData notif =
-      IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData person =
-      IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData search =
-      IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData settings =
-      IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData arrows_left =
-      IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData arrow_right =
-      IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData edit =
-      IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData home =
-      IconData(0xe809, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData services =
-      IconData(0xe80a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData timetable =
-      IconData(0xe80b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static SvgPicture person({double size = 24, Color? color}) =>
+      SvgPicture.string(
+        personSvg,
+        width: size,
+        colorFilter: ColorFilter.mode(color ?? _defaultColor, BlendMode.srcIn),
+      );
+
+  static SvgPicture location({double size = 24, Color? color}) =>
+      SvgPicture.string(
+        locationSvg,
+        width: size,
+        colorFilter: ColorFilter.mode(color ?? _defaultColor, BlendMode.srcIn),
+      );
 }
