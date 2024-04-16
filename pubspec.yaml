@@ -1,6 +1,7 @@
 name: fefufit_icons
 description: Fefufit icons pack.
-version: 0.0.1
+version: 0.0.2
+homepage: https://github.com/rn7cvj/fefufit_icons
 
 environment:
   sdk: ">=3.3.3 <4.0.0"
