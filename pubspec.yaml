@@ -1,7 +1,7 @@
 name: fefufit_icons
 description: FefufitIcons is a completely open-source icon set crafted for web, iOS, Android, and desktop apps.
 version: 0.0.4
-homepage: https://github.com/rn7cvj/fefufit_icons
+homepage: https://github.com/fefufit
 
 environment:
   sdk: ">=3.3.3 <4.0.0"
